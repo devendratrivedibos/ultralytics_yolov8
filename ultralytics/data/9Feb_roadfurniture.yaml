@@ -1,0 +1,127 @@
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: E:/Devendra_Files/ultralytics-main/ultralytics-main/ultralytics/data  # dataset root dir  # dataset root dir
+
+train: Train_14Feb.txt  # train images (relative to 'path') 128 images
+val: Val_14Feb.txt  # val images (relative to 'path') 128 images
+
+# Classes
+names:
+  0 : Speed_Limit
+  1 : Petrol_Pump
+  2 : SIGNBOARD_HAZARD
+  3 : Narrow_Bridge
+  4 : U_turn_prohibited
+  5 : Road_Merge
+  6 : Pedestrian_Crossing  
+  7 : Speed_Breaker  
+  8 : U_turn_ahead  
+  9 : Service_road_start
+  10 : Left_Curve_Turn
+  11 : Go Slow
+  12 : Right_Curve_turn
+  13 : P_Road_split
+  14 : busstop
+  15 : signboard
+  16 : Cross Sign
+  17 : School_ahead
+  18 : T-Sign
+  19 : STOP
+  20 : Highway_code
+  21 : No Parking
+  22 : SlipperyRoad
+  23 : Landslide_Danger
+  24 : Give Way
+  25 : Road_Diverge
+  26 : Compulsary_keep_left
+  27 : Collision_area
+  28 : DANGER
+  29 : No Right Turn
+  30 : Gap_in_Median              
+  31 : Chevron               
+  32 : Blackspot 
+  33 : Hotel                             
+  34 : Accident_Prone_Zone                   
+  35 : Overtaking_Prohibited                   
+  36 : Hospital                                
+  37 : Powergrid                            
+  38 : Side_Road (-|,|-)                                        
+  39 : STAGGERED_INTERSECTION   
+  40 : Y_Sign (Junction_Type Y)                   
+  41 : Hump_or_Rough Road                         
+  42 : Horn_Prohibited
+  43 : Compulsory_Horn
+  44 : No_Stopping_No_Standing                   
+  45 : Left_Turn_Sharp
+  46 : Right_Turn_Sharp
+  47 : Left_Hair_Pin_Bend
+  48 : Right_Hair_Pin_Bend
+  49 : Left_Reverse_bend
+  50 : Right_Reverse_bend
+  51 : Zig_Zag_Road                                
+  52 : Narrow_Road                        
+  53 : road_Widens      
+  54 : Pedestrian_Prohibited                         
+  55 : Round_About
+  56 : Dangerous_Dip
+  57 : Cycle_Crossing
+  58 : Men_at_Work
+  59 : Cattle
+  60 : Falling_Rocks
+  61 : Ferry
+  62 : Telephone_signboard                              
+  63 : First_Aid_post                                   
+  64 : EATING_PLACE                                        
+  65 : Light_Refreshments
+  66 : Resting_Place
+  67 : Toilet
+  68 : Park_this_side
+  69 : Parking_Motorcycle
+  70 : Parking_Cycles
+  71 : Parking_Cars
+  72 : One_Way
+  73 : No_Entry
+  74 : Truck_Prohibited
+  75 : All_Vehicles_Prohibited
+  76 : Barrier_Ahead
+  77 : Either_Way (2arrow)
+  78 : Compulsory_ahead
+  79 : Compulsory_turn_left            
+  80 : Compulsory_AHEAD_OR_TURN_LEFT
+  81 : Compulsory_Cycle
+  82 : Length_Limit
+  83 : Height_Limit
+  84 : Load_Limit
+  85 : Axle_Load_Limit
+  86 : Traffic_Lights
+  87 : Kilometre_Stone               
+  88 : Toll_Plaza_Ahead   
+  89 : ROAD_FURNITURE_HECTOMETRE_STONE 
+  90 : ROAD_FURNITURE_DELINEATOR 
+  91 : ROAD_FURNITURE_STREET_LIGHT 
+  92 : ROAD_FURNITURE_GUIDE_POST 
+  93 : ROAD_FURNITURE_GANTRY_BOARD
+  94 : ROAD_FURNITURE_REFLECTOR
+  95 : ROAD_FURNITURE_STONE_BARRIER 
+  96 : ROAD_FURNITURE_ARBORICULTURE 
+  97 : ROAD_FURNITURE_HIGH_MAST 
+  98 : ROAD_FURNITURE_TRAFFIC_SIGNAL 
+  99 : ROAD_FURNITURE_CCTV 
+  100 : ROAD_FURNITURE_BYPASS 
+  101 : ROAD_FURNITURE_ZEBRA_CROSSING 
+  102 : ROAD_FURNITURE_RUMBLER_STRIP 
+  103 : ROAD_FURNITURE_SKYWALK 
+  104 : ROAD_FURNITURE_REFLECTOR_STRIP 
+  105 : ROAD_FURNITURE_RCC_CRASH_BARRIER_START 
+  106 : ROAD_FURNITURE_RCC_CRASH_BARRIER_END 
+  107 : ROAD_FURNITURE_SLIP_ROAD_START 
+  108 : ROAD_FURNITURE_SLIP_ROAD_END 
+  109 : ROAD_FURNITURE_METAL_BEAM_CRASH_BARRIER_START 
+  110 : ROAD_FURNITURE_METAL_BEAM_CRASH_BARRIER_END 
+  111 : ROAD_FURNITURE_GUARD_RAIL_START 
+  112 : ROAD_FURNITURE_GUARD_RAIL_END
+  113 : Railway Crossing
+  114: Drinking Water
+  115: No_Left_Turn
+  116: Steep Ascent
+

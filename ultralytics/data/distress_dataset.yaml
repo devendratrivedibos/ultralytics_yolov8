@@ -1,0 +1,15 @@
+# train: E:\Ashutosh B Stuff\all_annotations\YOLODataset/images/train/
+# val: E:\Ashutosh B Stuff\all_annotations\YOLODataset/images/val/
+# test: E:\Ashutosh B Stuff\all_annotations\YOLODataset/images/test/
+# nc: 3
+# names: ["POTHOLE", "PATCH", "DELIMINATION"]
+
+
+
+
+
+train: K:/091a0e87-260f-455e-b10c-7376a65676c2/0da45699-2e95-4f3a-9388-e34a8824708c/r3_16/YOLODataset/images/train/
+val: K:/091a0e87-260f-455e-b10c-7376a65676c2/0da45699-2e95-4f3a-9388-e34a8824708c/r3_16/YOLODataset/images/val/
+# test: K:/091a0e87-260f-455e-b10c-7376a65676c2/0da45699-2e95-4f3a-9388-e34a8824708c/r3_16/YOLODataset/images/test/
+nc: 1
+names: ["crack"]
