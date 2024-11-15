@@ -1,0 +1,4 @@
+train: D:/Cable Inspection/New folder/train_data_sample/YOLODataset/images/train/
+val: D:/Cable Inspection/New folder/train_data_sample/YOLODataset/images/val/
+nc: 2
+names: ["scratch", "blackdot"]

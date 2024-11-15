@@ -1,0 +1,4 @@
+
+path: D:/DATA_RF/Asphat_concrete/  # dataset root dir  # dataset root dir
+train: Train  # train images (relative to 'path') 128 images
+val: Test  # val images (relative to 'path') 128 images

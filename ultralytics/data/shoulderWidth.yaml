@@ -1,0 +1,6 @@
+train: C:/Users/Admin/Downloads/Shoulder_width - Lane Marking_frntCam.v3i.yolov11/train/images
+val: C:/Users/Admin/Downloads/Shoulder_width - Lane Marking_frntCam.v3i.yolov11/valid/images
+test: C:/Users/Admin/Downloads/Shoulder_width - Lane Marking_frntCam.v3i.yolov11/valid/images
+
+nc: 2
+names: ['LaneMarking', 'Road']

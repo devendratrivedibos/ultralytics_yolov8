@@ -1,0 +1,5 @@
+train: D:/DATA_RF/LaneMarking Front Cam.v1i.yolov11/train/images
+val: D:/DATA_RF/LaneMarking Front Cam.v1i.yolov11/valid/images
+
+nc: 1
+names: ['Lane-Mark']
